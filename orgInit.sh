@@ -1,6 +1,6 @@
 date
 echo "sfdx force:org:create"
-sfdx force:org:create --definitionfile="config/project-scratch-def.json" --durationdays=5 --targetdevhubusername="${dhALIAS}" --setalias="${soALIAS}" --json
+sfdx force:org:create --definitionfile="config/project-scratch-def.json" --durationdays=30 --targetdevhubusername="${dhALIAS}" --setalias="${soALIAS}" --json
 date
 echo "sfdx force:source:push"
 sfdx force:source:push --targetusername="${soALIAS}" --json
