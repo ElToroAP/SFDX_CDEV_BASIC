@@ -24,5 +24,5 @@ echo "sfdx force:user:password:generate"
 sfdx force:user:password:generate --targetdevhubusername="${dhALIAS}" --targetusername="${soALIAS}" --json
 date
 echo "sfdx force:user:display"
-sfdx force:user:display  --targetusername="${soALIAS}" --json
+sfdx force:user:display  --targetusername="${soALIAS}" --targetdevhubusername="${dhALIAS}" --json
 date
