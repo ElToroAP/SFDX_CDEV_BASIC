@@ -1,6 +1,6 @@
 {
   "orgSource": "soNULL",
-  "orgDestination": "soNULL",
+  "orgDestination": "soTestBasic",
   "sObjectsData": [
     {
       "name": "Opportunity",
