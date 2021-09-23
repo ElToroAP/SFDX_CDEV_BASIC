@@ -1,6 +1,6 @@
 {
 	"orgName": "ELTOROIT Demos Computing",
-	"edition": "Developer",
+	"edition": "Enterprise",
 	"hasSampleData": false,
 	"features": [
 		"EnableSetPasswordInApi"
